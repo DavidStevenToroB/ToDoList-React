@@ -1,0 +1,19 @@
+#description{
+   padding-bottom: 90px;
+}
+.inputs{
+   padding: 0 50px 10px 0;
+   font-size: 20px;
+}
+
+.btnAdd{
+   padding: 10px;
+   border-radius: 15px;
+   border: 0 transparent;
+   color: white;
+   background-color: rgb(174, 0, 255);
+   transition: 0.2s;
+}
+.btnAdd:hover{
+   background-color: rgb(119, 0, 255);
+}
