@@ -1,6 +1,10 @@
 #description{
    padding-bottom: 90px;
 }
+#h2Section1{
+   margin: 0;
+   font-size: 40px;
+}
 .inputs{
    padding: 0 50px 10px 0;
    font-size: 20px;
@@ -8,10 +12,10 @@
 
 .btnAdd{
    padding: 10px;
-   border-radius: 15px;
-   border: 0 transparent;
    color: white;
+   border-radius: 15px;
    background-color: rgb(174, 0, 255);
+   border: 0 transparent;
    transition: 0.2s;
 }
 .btnAdd:hover{
