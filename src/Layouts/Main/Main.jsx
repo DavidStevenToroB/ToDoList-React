@@ -1,5 +1,6 @@
-import { Section } from "../Section/Section"
 import { DivFilters } from "../DivFilters/DivFilters"
+import { DivCards } from "../DivCards/DivCards"
+import { Section } from "../Section/Section"
 import React from 'react'
 import './Main.css'
 
@@ -10,11 +11,7 @@ export const Main = () => {
          <Section style={'section-one'} />
          <section className="section-two">
             <DivFilters style={'filters'} />
-            <div id="card">
-               <input className='inputCheckBox' type="checkbox" />
-               <h3>Title</h3>
-               <h4>Description</h4>
-            </div>
+            <DivCards contentTitle={'tarea3'} contentDescription={'me da pereza'}/>
          </section>
       </main>
    )
